@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Tourism</title>
+	<meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+
+
+
+<body>
+	<div class="container-fluid">
+		<h2 class="text-center text-primary">Shef's Bay</h2>
+
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-info">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="row">
+						<a class="navbar-brand" href="#">Shefmania</a>
+
+						<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+							<ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="lst">
+								<div class="col-xs-4">
+									<li class="nav-item active">
+										<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+									</li>
+								</div>
+
+
+								<div class="col-xs-4">
+									<li class="nav-item">
+										<a class="nav-link" href="#">Link</a>
+									</li>
+								</div>
+
+
+
+								<div class="col-xs-4">
+									<li class="nav-item">
+										<a class="nav-link disabled" href="#">Disabled</a>
+									</li>
+								</div>
+
+
+
+							</ul>
+
+						</div>
+
+					</div>
+
+
+				</div>
+				<div class="col-md-4">
+					<form class="form-inline my-2 my-lg-0" id="srch">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+
+				</div>
+
+
+
+			</div>
+
+
+
+		</nav>
+
+
+		<div class="row">
+
+
+			<div class="col-xs-6">
+				<div id="left-well">
+					<h3 class="text-center">left-well</h3>
+					<form id="field1">
+						<div class="row">
+							<div class="col-md-7">
+								<input type=text required placeholder="First name" class="form-control">
+							</div>
+							<div class="col-xs-4">
+								<button class="btn btn-default" id="btn1"><i class="fa fa-thumbs-up"></i> click
+									here</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+
+			<div class="col-xs-6">
+				<div id="right-well">
+					<h3 class="text-center">right-well</h3>
+					<form id=field2>
+						<div class="row">
+							<div class="col-md-7">
+								<input type=text required placeholder="Last name" class="form-control">
+							</div>
+							<div class="col-xs-4">
+								<button class="btn btn-default" id="btn2"><i class="fa fa-thumbs-up"></i> click
+									here</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-xs-7">
+						<input type="number" required class="form-control" placeholder="Number">
+					</div>
+					<div class="col-xs-4">
+						<button class="btn btn-success" type="submit"><i class="fa fa-info-circle"></i> submit</button>
+					</div>
+				</div>
+
+
+
+
+			</div>
+			<div class="col-md-6">
+
+
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#btn1").css("color", "red");
+			$("#btn2").css("color", "green");
+			$("li").css("list-style", "none");
+			//$("#field2").clone().appendTo("#left-well").css("padding-top","10px");
+			$("h3").css("font-size", "35px");
+			$("#field2").css("padding","10px");
+			$("#field1").css("padding","10px");
+			$("#srch").css("padding-left","120px");
+			$("#srch").css("padding-top","10px");
+			$("#lst").css("padding","15px 0px 0px 41%");
+			$("#lst").css("font-size","20px");
+			$(".navbar-brand").css("font-size","25px");
+			$(".navbar-brand").css("padding-left","25px");
+			$(".navbar").css("background","gold");
+			$(".navbar-brand").css("font-family","cursive");
+			$("#lst").css("font-family","fantasy");
+
+
+
+
+
+		});
+	</script>
+	
+</body>
+
+</html>
